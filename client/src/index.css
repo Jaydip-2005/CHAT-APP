@@ -1,0 +1,13 @@
+/* import outfit font for entire web page */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+ 
+/* hide vertical srollbar */
+::-webkit-scrollbar{
+  display: none;
+}
